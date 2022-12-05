@@ -3,11 +3,11 @@ package com.smartdelta.SmartDelta.entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Lob;
+import javax.persistence.Id;
 
 @Entity
 @Data
